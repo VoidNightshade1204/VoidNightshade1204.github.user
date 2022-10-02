@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 1vh;
+    padding: 1px;
     font-family: "montsettat",sans-serif;
 }
 
@@ -9,6 +9,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
 }
 
 .btn{
@@ -22,6 +23,10 @@ body{
     cursor:pointer;
     font-size: 16px;
     position: relative;
+
+    border-radius: 1em;
+    text-shadow: 0 0 1em currentColor;
+    box-shadow: inset 0 0 0.5em currentColor;
 }
 
 .btn::before,.btn::after{
